@@ -12,9 +12,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}
+.container button {
+  padding: 20px 40px;
+  font-size: 30px;
+  border: 0;
+  background-color: rgb(77, 154, 226);
+  border-radius: 5px;
 }
